@@ -1,3 +1,47 @@
+A Machine Learning powered web application built with Streamlit to predict the probability of heart disease based on patient health parameters.
+
+------------
+🧩 **Features Used for Prediction**
+
+The model predicts the likelihood of heart disease using the following key patient attributes:
+
+Age – Patient’s age
+
+Sex – Male/Female
+
+Chest Pain Type (cp) – 4 types of chest pain
+
+Resting Blood Pressure (trestbps)
+
+Cholesterol (chol)
+
+Fasting Blood Sugar > 120 mg/dl (fbs)
+
+Resting ECG Results (restecg)
+
+Maximum Heart Rate Achieved (thalach)
+
+Exercise-Induced Angina (exang)
+
+ST Depression (oldpeak)
+
+Slope of ST Segment (slope)
+
+Number of Major Vessels Colored (ca)
+
+Thalassemia (thal)
+
+------------
+📊 **Exploratory Data Analysis (EDA)**
+
+🔹 1. Heart Disease Frequency According to Sex
+
+🔹 2. Age vs Max Heart Rate (Thalach) for Heart Disease
+
+🔹 3. Heart Disease Frequency Per Chest Pain Type
+
+------------
+
 🤖 **Model Building & Evaluation**
 
 I experimented with three machine learning algorithms to identify the best model for heart disease prediction:
@@ -9,7 +53,7 @@ I experimented with three machine learning algorithms to identify the best model
 2. K-Nearest Neighbors (KNN)
 
 3. Random Forest Classifier
-------------
+
 📈 **Baseline Model Accuracies**
 
 Model	Accuracy
@@ -94,15 +138,9 @@ F1-score
 
 ✔ ROC Curve & AUC Score
 
-AUC score indicates strong separability
-
-Logistic Regression achieved high AUC, confirming strong performance
-
 ✔ Feature Importance (Coefficients)
 
 Identified which variables most strongly impact heart disease prediction
-
-Helpful for medical interpretability
 
 ------------
 📊 **Model Comparison Plot**
@@ -110,3 +148,10 @@ Helpful for medical interpretability
 <p align="center">
   <img src = "https://github.com/user-attachments/assets/5ded4cc1-8ce5-4aba-ac72-d525145b3a9e" width="500">
 </p>
+
+------------
+🚀 **Live App URL (Deployment by Streamlit)**
+
+Streamlit App link : https://heart-disease-prediction-app-4hf7kam9iksorxdn2gvpat.streamlit.app/
+
+
